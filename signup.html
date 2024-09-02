@@ -1,0 +1,31 @@
+<?php 
+	include 'config.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signup-container" style="background-color: aquamarine;">
+        <h2>Client Sign Up</h2>
+        <form action="signup.php" method="POST">
+            <label for="First Name">First Name:</label><br>
+            <input type="text" id="First Name" name="First Name" required><br>
+            <label for="Last Name">Last Name:</label><br>
+            <input type="text" id="Last Name" name="Last Name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+
+</html>

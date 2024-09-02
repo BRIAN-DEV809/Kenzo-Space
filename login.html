@@ -1,0 +1,29 @@
+<?php 
+	include 'config.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-container" style="background-color: aquamarine;">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="First Name">First Name:</label><br>
+            <input type="text" id="firstname" name="username" required><br>
+            <label for="Last Name">Last Name:</label><br>
+            <input type="text" id="lasttname" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>

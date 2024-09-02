@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kenzo space</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbars.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pricing.css">
+    <style>
+      .room_section {
+        width: 100%;
+        height: 100vh;
+      }
+  
+      .room_section h1 {
+        text-align: center;
+      }
+  
+  
+      .room_container {
+  
+        padding: 50px;
+        background-color:aquamarine;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+  
+      .room_card {
+        overflow: hidden;
+        width: 100%;
+        max-width: 250px;
+        border-radius: 7px;
+        border: 1px solid black;
+      }
+  
+  
+      .room_card img {
+        width: 100%;
+      }
+  
+      .room-content {
+        padding: 5px;
+  
+  
+      }
+  
+      .room-content h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+  
+      .room-content p {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 12px;
+  
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KENZO BOOKING SPACE</h1>
+    
+    </header>
+    <a href="booking 2.html">Book Now</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse d-flex" id="navbarsExample11">
+            <a class="navbar-brand col-3 me-0" href="#">KENZO SPACE</a>
+            <ul class="navbar-nav col-lg-6 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Rooms.html"> Rooms Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <!-- <a href="booking 2.html">Book Now</a> -->
+        <div class="col-4" style="background-color: aquamarine;">
+            <div class="room_container">
+                <div class="room_card">
+                    <img src="images/board-room-1.jpg" alt="">
+                    <div class="room-content">
+                        <h2>Office Suite 1</h2>
+                        <p>Located in Yaya Center.<br>$55</p>
+                        <ul class="">
+                            <li>Seating for 6 – 8 People</li>
+                            <li>Free Internet</li>
+                            <li> 1200 square feet</li>
+                            <li>Good-lighting & air conditioner</li>
+                        </ul>
+                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+          document.getElementById("bookButton").addEventListener("click", function() {
+              alert("You have successfully booked the office space!");
+          });
+      </script>
+        
+       
+        <div class="col-4" style="background-color: aquamarine;">
+            <div class="room_container">
+                <div class="room_card">
+                    <img src="images/office-image-2.jpg" alt="">
+                    <div class="room-content">
+                        <h2>Office Suite 2</h2>
+                        <p>Located in Kosovo.<br>$94</p>
+                        <ul class="">
+                            <li>Seating for 10 – 15 People</li>
+                            <li>Free Internet</li>
+                            <li>Parking Available</li>
+                            <li> 2000 square feet</li>
+                            <li>Reference books available</li>
+                        </ul>
+                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+        <div class="col-4" style="background-color: aquamarine;">
+            <div class="room_container">
+                <div class="room_card">
+                    <img src="images/office-image-2.jpg" alt="">
+                    <div class="room-content">
+                        <h2>Office Suite 3</h2>
+                        <p>Located in Ngong.<br>$110</p>
+                        <ul class="">
+                            <li>Seating for 30 – 50 People</li>
+                            <li>Good sound system</li>
+                            <li> 3000 square feet</li>
+                            <li>Good-lighting & air conditioner</li>
+                        </ul>
+                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="row">
+     
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/Library-image-1.jpg" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 4</h2>
+                        <p>Located in Westlands.<br>$199</p>
+                        <ul class="">
+                          <li>Seating for 30– 60 People</li>
+                          <li>Free Internet</li>
+                          <li> 4000 square feet</li>
+                          <li>Screens and Projectors available</li>
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+     
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/office-image-5.jpeg" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 5</h2>
+                      <p>Located in Kabete.<br>$30</p>
+                      <ul class="">
+                        <li>Seating for 5 – 15 People</li>
+                        <li> 500 square feet</li>
+                        <li>Good-lighting & air conditioner</li>
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/conference-image-1.jpg" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 6</h2>
+                      <p>Located in Muthaiga.<br>$250</p>
+                      <ul class="">
+                        <li>Seating for 50-100 users</li>
+                        <li>Ample Parking</li>
+                        <li>5000 Square feet</li>
+                        <li>Good sound system</li>
+                        
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/Office-image-1.png" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 7</h2>
+                        <p>Located in Westlands.<br>$94</p>
+                        <ul class="">
+                          <li>Seating for 50 – 100 People</li>
+                          <li>Free Internet</li>
+                          <li> 6000 square feet</li>
+                          <li>Has a vip suit for special works</li>
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+     
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/Office -image-4.jpeg" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 8</h2>
+                      <p>Located in Kabete.<br>$199</p>
+                      <ul class="">
+                        <li>Seating for 30 – 100People</li>
+                        <li>Ample Parking </li>
+                        <li>Free Internet</li>
+                        <li>Good sound system</li>
+                        <li> 5000 square feet</li>
+                        <li>Catereers Available</li>
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      <div class="col-4" style="background-color: aquamarine;">
+          <div class="room_container">
+              <div class="room_card">
+                  <img src="images/back-ground-img.jpg" alt="">
+                  <div class="room-content">
+                      <h2>Office Suite 9</h2>
+                      <p>Located in Muthaiga.<br>$30</p>
+                      <ul class="">
+                        <li>Seating for 10-50 users</li>
+                        <li>Free Internet </li>
+                        <li>Ample Parking</li>
+                        <li>3000 Square feet</li>
+                        <li>Good sound system</li>
+                        <li>Good - Lighting & Air Conditioning</li>
+                        
+                      </ul>
+                      <!-- <button type="button" class="w-100 btn btn-lg btn-outline-secondary">Book Now</button>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+    </div>
+      <footer>
+        &copy; 2024 KENZO BOOKING SPACE. All rights reserved.
+      </footer>
+      <script>
+        // Add event listeners to all book buttons
+        const bookButtons = document.querySelectorAll('.book-btn');
+        bookButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('You have successfully booked the office space!');
+            });
+        });
+    </script>
+    </body>
+    
+    </html>
